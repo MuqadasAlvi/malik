@@ -1,0 +1,103 @@
+﻿body {
+    font: 14px Arial,sans-serif;
+    margin: 0px;
+}
+
+html, body {
+    height: 100%;
+   
+}
+ 
+* html #outer { /* ie6 and under only*/
+    height: 100%;
+}
+
+.header {
+    padding: 10px 20px;
+    background: #b4cdd1;
+    height: 100px; 
+}
+
+    .header h1 {
+        font-size: 24px;
+    }
+
+.container {
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+}
+
+
+.section {
+    width: 100%;
+    height: 70%;
+    opacity: 1;
+}
+
+
+.footer {
+    background: #b4cdd1;
+    text-align: center;
+    padding: 5px;
+    height: 10%;
+}
+
+div.relative {
+    position: relative;
+    width: 400px;
+    height: 150px;
+    border: 3px solid #73AD21;
+}
+
+div.absolute {
+    position: absolute;
+    top: 350px;
+    left: 150px;
+    font-size: 20px;
+
+}
+
+div.absolute1 {
+    position: absolute;
+    top: 400px;
+    left: 150px;
+    font-size: 20px;
+
+}
+
+div.absolute1 {
+    position: absolute;
+    top: 400px;
+    left: 150px;
+    font-size: 20px;
+
+}
+div.absolute2 {
+    position: absolute;
+    top: 430px;
+    left: 150px;
+    font-size: 20px;
+    
+}
+
+div.aboutuspara {
+    position: absolute;
+    top: 500px;
+    left: 130px;
+    
+}
+
+div.aboutuspara1 {
+    position: absolute;
+    top: 550px;
+    left: 130px;
+
+}
+
+div.aboutuspara2 {
+    position: absolute;
+    top: 600px;
+    left: 130px;
+}
+
